@@ -3,9 +3,10 @@
 Official Pay AI brand assets for press, partners, and community use.
 
 ## Structure
-- `logos/brandmark/` — Standalone mark at key sizes (`16`, `50`, `250`, `500`, `original`).
-- `logos/wordmark/` — Wordmark variants.
-- `logos/lockups/` — Horizontal and vertical combinations.
+- `assets/mark/` — Standalone mark at sizes `16`, `50`, `250`, `500` with `png/` and `svg/`.
+- `assets/wordmark/` — Wordmark variants in `png/` and `svg/`.
+- `assets/lockups/` — Combined mark + wordmark organized by orientation:
+  - `horizontal/` and `vertical/`, each with `png/` and `svg/`.
 - `source/` — Editable originals.
 
 ## File formats
