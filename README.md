@@ -23,11 +23,23 @@ Official Pay AI brand assets for press, partners, and community use.
 - Don’t place on low-contrast backgrounds.
 - Don’t use as part of another logo.
 
-## Colors (to finalize)
-- Primary: Pay AI Blue — add HEX/RGB/CMYK once finalized.
+## Colors
+- **Primary (Pay AI Blue)**: #4D63F6
+- **Text**: #101828
+- **Text Muted**: #667085
+- **Border**: #e5e7eb
+- **Background**: #fafafa
+- **Surface**: #ffffff
+- **Error**: #DC2626
+- **Success**: #059669
+- **Warning**: #D97706
 
-## Typography (to finalize)
-- Primary type family and usage rules to be added.
+## Typography
+- **Sans**: Inter (weights 300–700)
+- **Mono**: JetBrains Mono (weights 400–600)
+
+## Prompts
+- `prompts/ui-design-style.md` — Reusable prompt for LLMs/AI coding assistants to build web UIs in the PayAI brand style. Includes CSS variables and font imports.
 
 ## Licensing
 Use of these assets is governed by the Brand Assets License in `LICENSE`.
