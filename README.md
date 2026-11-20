@@ -38,6 +38,11 @@ Official Pay AI brand assets for press, partners, and community use.
 - **Sans**: Inter (weights 300–700)
 - **Mono**: JetBrains Mono (weights 400–600)
 
+## Design guides
+
+- [Brand and UI/UX guides](docs/design-reference/README.md) — Markdown, PDF, and an agent-readable token reference.
+- The guides preserve the published product UI rules in this README and in the existing prompt. Observed marketing variants and recommendations are labeled separately.
+
 ## Prompts
 - `prompts/ui-design-style.md` — Reusable prompt for LLMs/AI coding assistants to build web UIs in the PayAI brand style. Includes CSS variables and font imports.
 

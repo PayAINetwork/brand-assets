@@ -2,6 +2,8 @@
 
 Use this prompt when asking an LLM or AI coding assistant to build a web UI that matches the PayAI brand.
 
+For page patterns, responsive behavior, accessibility, and deliberately selected marketing variants, see the [design guides](../docs/design-reference/README.md). This prompt remains the default product UI style. Always retain a visible keyboard-focus indicator; "No outlines" below does not mean removing focus indication.
+
 ---
 
 ## Prompt
