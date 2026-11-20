@@ -1,0 +1,388 @@
+{
+  "version": "1.1-public",
+  "reviewedAt": "2026-11-20",
+  "notice": "Published product defaults are authoritative. Observed marketing values apply only to a selected marketing profile; recommendations are not approved tokens. Raw design-file references are omitted.",
+  "publishedProductUI": {
+    "color.accent": {
+      "value": "#4D63F6",
+      "status": "published",
+      "source": "../../prompts/ui-design-style.md"
+    },
+    "color.accentHover": {
+      "value": "#2F47E8",
+      "status": "published",
+      "source": "../../prompts/ui-design-style.md"
+    },
+    "color.accentDim": {
+      "value": "rgba(77, 99, 246, 0.08)",
+      "status": "published",
+      "source": "../../prompts/ui-design-style.md"
+    },
+    "color.text": {
+      "value": "#101828",
+      "status": "published",
+      "source": "../../prompts/ui-design-style.md"
+    },
+    "color.textMuted": {
+      "value": "#667085",
+      "status": "published",
+      "source": "../../prompts/ui-design-style.md"
+    },
+    "color.border": {
+      "value": "#E5E7EB",
+      "status": "published",
+      "source": "../../prompts/ui-design-style.md"
+    },
+    "color.background": {
+      "value": "#FAFAFA",
+      "status": "published",
+      "source": "../../prompts/ui-design-style.md"
+    },
+    "color.surface": {
+      "value": "#FFFFFF",
+      "status": "published",
+      "source": "../../prompts/ui-design-style.md"
+    },
+    "color.surfaceHover": {
+      "value": "#F5F5F5",
+      "status": "published",
+      "source": "../../prompts/ui-design-style.md"
+    },
+    "color.error": {
+      "value": "#DC2626",
+      "status": "published",
+      "source": "../../prompts/ui-design-style.md"
+    },
+    "color.success": {
+      "value": "#059669",
+      "status": "published",
+      "source": "../../prompts/ui-design-style.md"
+    },
+    "color.warning": {
+      "value": "#D97706",
+      "status": "published",
+      "source": "../../prompts/ui-design-style.md"
+    },
+    "font.sans": {
+      "value": "Inter",
+      "status": "published",
+      "source": "../../prompts/ui-design-style.md"
+    },
+    "font.mono": {
+      "value": "JetBrains Mono",
+      "status": "published",
+      "source": "../../prompts/ui-design-style.md"
+    },
+    "radius.button": {
+      "value": 12,
+      "status": "published",
+      "source": "../../prompts/ui-design-style.md"
+    },
+    "radius.card": {
+      "value": 12,
+      "status": "published",
+      "source": "../../prompts/ui-design-style.md"
+    },
+    "radius.field": {
+      "value": 8,
+      "status": "published",
+      "source": "../../prompts/ui-design-style.md"
+    },
+    "shadow.card": {
+      "value": {
+        "x": 0,
+        "y": 1,
+        "blur": 2,
+        "spread": 0,
+        "color": "#000000",
+        "opacity": 0.04
+      },
+      "status": "published",
+      "source": "../../prompts/ui-design-style.md"
+    }
+  },
+  "observedMarketing": {
+    "marketing.strongBlue": {
+      "value": "#1D45D8",
+      "status": "documented-label",
+      "role": "Brand palette; semantic role is proposed",
+      "evidence": "Marketing design review, 2026-11-20"
+    },
+    "brand.primary": {
+      "value": "#4D63F6",
+      "status": "documented-label",
+      "role": "Brand palette; semantic role is proposed",
+      "evidence": "Marketing design review, 2026-11-20"
+    },
+    "marketing.tint": {
+      "value": "#8AA3FF",
+      "status": "documented-label",
+      "role": "Brand palette; semantic role is proposed",
+      "evidence": "Marketing design review, 2026-11-20"
+    },
+    "marketing.pale": {
+      "value": "#D7E3FF",
+      "status": "documented-label",
+      "role": "Brand palette; semantic role is proposed",
+      "evidence": "Marketing design review, 2026-11-20"
+    },
+    "text.primary": {
+      "value": "#09090B",
+      "status": "observed",
+      "role": "Sample UI role",
+      "evidence": "Marketing design review, 2026-11-20"
+    },
+    "text.secondary": {
+      "value": "#71717A",
+      "status": "observed",
+      "role": "Sample UI role",
+      "evidence": "Marketing design review, 2026-11-20"
+    },
+    "text.supporting": {
+      "value": "#3F3F46",
+      "status": "observed",
+      "role": "Sample UI role",
+      "evidence": "Marketing design review, 2026-11-20"
+    },
+    "surface.base": {
+      "value": "#FFFFFF",
+      "status": "observed",
+      "role": "Sample UI role",
+      "evidence": "Marketing design review, 2026-11-20"
+    },
+    "surface.subtle": {
+      "value": "#FAFAFB",
+      "status": "observed",
+      "role": "Sample UI role",
+      "evidence": "Marketing design review, 2026-11-20"
+    },
+    "border.default": {
+      "value": "#E4E4E7",
+      "status": "observed",
+      "role": "Sample UI role",
+      "evidence": "Marketing design review, 2026-11-20"
+    },
+    "layout.desktopWidth": {
+      "value": 1440,
+      "status": "observed",
+      "role": "Reference measurement; adapt to context",
+      "unit": "px",
+      "evidence": "Marketing design review, 2026-11-20"
+    },
+    "layout.contentWidth": {
+      "value": 1280,
+      "status": "observed",
+      "role": "Reference measurement; adapt to context",
+      "unit": "px",
+      "evidence": "Marketing design review, 2026-11-20"
+    },
+    "layout.desktopGutter": {
+      "value": 80,
+      "status": "observed",
+      "role": "Reference measurement; adapt to context",
+      "unit": "px",
+      "evidence": "Marketing design review, 2026-11-20"
+    },
+    "layout.headerHeight": {
+      "value": 68,
+      "status": "observed",
+      "role": "Reference measurement; adapt to context",
+      "unit": "px",
+      "evidence": "Marketing design review, 2026-11-20"
+    },
+    "layout.mobileWidth": {
+      "value": 375,
+      "status": "observed",
+      "role": "Reference measurement; adapt to context",
+      "unit": "px",
+      "evidence": "Marketing design review, 2026-11-20"
+    },
+    "layout.mobileHeaderHeight": {
+      "value": 64,
+      "status": "observed",
+      "role": "Reference measurement; adapt to context",
+      "unit": "px",
+      "evidence": "Marketing design review, 2026-11-20"
+    },
+    "button.height": {
+      "value": 40,
+      "status": "observed",
+      "role": "Reference measurement; adapt to context",
+      "unit": "px",
+      "evidence": "Marketing design review, 2026-11-20"
+    },
+    "button.radius": {
+      "value": 8,
+      "status": "observed",
+      "role": "Reference measurement; adapt to context",
+      "unit": "px",
+      "evidence": "Marketing design review, 2026-11-20"
+    },
+    "button.paddingX": {
+      "value": 16,
+      "status": "observed",
+      "role": "Reference measurement; adapt to context",
+      "unit": "px",
+      "evidence": "Marketing design review, 2026-11-20"
+    },
+    "button.paddingY": {
+      "value": 10,
+      "status": "observed",
+      "role": "Reference measurement; adapt to context",
+      "unit": "px",
+      "evidence": "Marketing design review, 2026-11-20"
+    },
+    "button.iconSize": {
+      "value": 20,
+      "status": "observed",
+      "role": "Reference measurement; adapt to context",
+      "unit": "px",
+      "evidence": "Marketing design review, 2026-11-20"
+    },
+    "button.iconGap": {
+      "value": 8,
+      "status": "observed",
+      "role": "Reference measurement; adapt to context",
+      "unit": "px",
+      "evidence": "Marketing design review, 2026-11-20"
+    },
+    "button.pairGap": {
+      "value": 12,
+      "status": "observed",
+      "role": "Reference measurement; adapt to context",
+      "unit": "px",
+      "evidence": "Marketing design review, 2026-11-20"
+    },
+    "font.core": {
+      "value": "Inter",
+      "status": "documented",
+      "role": "Core family",
+      "evidence": "Marketing design review, 2026-11-20"
+    },
+    "font.campaign": {
+      "value": "Inter Tight",
+      "status": "observed",
+      "role": "Sample announcement headline; not universal UI family",
+      "evidence": "Marketing design review, 2026-11-20"
+    },
+    "type.hero": {
+      "value": {
+        "family": "Inter",
+        "weight": 500,
+        "fontSize": 56,
+        "lineHeight": 66,
+        "letterSpacingPercent": -1
+      },
+      "status": "observed",
+      "role": "Desktop facilitator hero",
+      "unit": "px",
+      "evidence": "Marketing design review, 2026-11-20"
+    },
+    "type.body": {
+      "value": {
+        "family": "Inter",
+        "weight": 400,
+        "fontSize": 16,
+        "lineHeight": 28,
+        "letterSpacingPercent": -1
+      },
+      "status": "observed",
+      "role": "Facilitator hero body",
+      "unit": "px",
+      "evidence": "Marketing design review, 2026-11-20"
+    },
+    "type.button": {
+      "value": {
+        "family": "Inter",
+        "weight": 500,
+        "fontSize": 14,
+        "lineHeight": 20,
+        "letterSpacingPercent": 0
+      },
+      "status": "observed",
+      "role": "Facilitator CTA label",
+      "unit": "px",
+      "evidence": "Marketing design review, 2026-11-20"
+    },
+    "button.gradient": {
+      "value": {
+        "type": "linear",
+        "stops": [
+          {
+            "position": 0.1732,
+            "color": "#4D63F6"
+          },
+          {
+            "position": 0.648,
+            "color": "#1D45D8"
+          }
+        ],
+        "figmaGradientTransform": [
+          [
+            0.9987196326255798,
+            0,
+            0.0015659097116440535
+          ],
+          [
+            0,
+            1.0594438314437866,
+            -0.029721921309828758
+          ]
+        ]
+      },
+      "status": "observed",
+      "role": "Source primary CTA paint",
+      "evidence": "Marketing design review, 2026-11-20"
+    },
+    "button.secondaryShadow": {
+      "value": {
+        "x": 0,
+        "y": 1,
+        "blur": 2,
+        "spread": 0,
+        "color": "#000000",
+        "opacity": 0.1
+      },
+      "status": "observed",
+      "role": "Source secondary CTA shadow",
+      "unit": "px",
+      "evidence": "Marketing design review, 2026-11-20"
+    }
+  },
+  "recommendations": {
+    "space.scale": {
+      "value": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48,
+        64,
+        80
+      ],
+      "status": "recommended",
+      "role": "Proposed spacing scale",
+      "unit": "px",
+      "evidence": "Proposed extension; validate per task"
+    },
+    "touch.target": {
+      "value": 44,
+      "status": "recommended",
+      "role": "Preferred target for important touch controls, not WCAG AA minimum",
+      "unit": "px",
+      "evidence": "Proposed extension; validate per task"
+    },
+    "type.mobileHero": {
+      "value": {
+        "fontSize": 32,
+        "lineHeight": 40
+      },
+      "status": "recommended",
+      "role": "Starting point pending responsive validation",
+      "unit": "px",
+      "evidence": "Proposed extension; validate per task"
+    }
+  }
+}
