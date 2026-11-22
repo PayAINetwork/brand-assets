@@ -6,6 +6,7 @@ Public edition 1.1, reviewed 20 November 2026. Practical guidance for designers,
 | --- | --- | --- |
 | Brand: identity, messaging, typography, imagery, and social recipes | [Markdown](PayAI-Brand-Guide.md) | [PDF](PayAI-Brand-Guide.pdf) |
 | UI/UX: layout, component contracts, responsive behavior, states, and accessibility | [Markdown](PayAI-UI-UX-Guide.md) | [PDF](PayAI-UI-UX-Guide.pdf) |
+| Mascot (proposed): the PayAI bot doodle, expressions, poses, roles, and agent rules | [Markdown](../../assets/mascot/AGENTS.md) | [Character sheet PDF](../../assets/mascot/character-sheet/payai-bot-character-sheet.pdf) |
 
 [Design token reference](PayAI-design-tokens.json) separates published product UI values, observed marketing values, and proposed extensions. It is documentation, not an exported Figma variable library.
 

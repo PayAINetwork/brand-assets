@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>PayAI bot generator</title>
+<style>
+body { margin: 0; background: #F5F1E6; font: 14px system-ui, sans-serif; color: #1E2B7A; }
+#stage { display: block; margin: 0 auto; }
+#bar { text-align: center; padding: 8px; }
+</style>
+</head>
+<body>
+<!-- Draws one PayAI bot from URL options, for example:
+     mascot.html?pose=point&face=happy&role=CODEX
+     mascot.html?head=1&face=shock&emote=!
+     Scripts can call payaiSVG({ pose: 'wave', face: 'grin' }) to get a standalone SVG string. -->
+<svg id="stage" xmlns="http://www.w3.org/2000/svg" width="640" height="720" viewBox="-320 -400 640 720">
+  <defs id="defs"></defs>
+  <g id="scene"></g>
+</svg>
+<div id="bar"><a id="dl" download="payai-bot.svg" href="#">Download SVG</a></div>
+<script src="lib/rough.js"></script>
+<script src="lib/doodle.js"></script>
+<script src="lib/components.js"></script>
+<script src="lib/assets.js"></script>
+<script src="mascot.js"></script>
+</body>
+</html>
