@@ -1,0 +1,520 @@
+{
+ "name": "PayAI bot",
+ "owner": "PayAI Network (@PayAINetwork)",
+ "style": "hand-drawn marker doodle: navy outline, flat fills, slight wobble",
+ "palette": {
+  "line": "#1E2B7A",
+  "shell": "#FFFFFF",
+  "shade": "#DCE6FF",
+  "plate": "#EAF0FF",
+  "visor": "#4D63F6",
+  "deep": "#1D45D8",
+  "joint": "#8AA3FF",
+  "pixel": "#FFFFFF",
+  "visor_rogue": "#D9412E",
+  "visor_off": "#2D2C2B",
+  "visor_ok": "#35A457"
+ },
+ "proportions": {
+  "units": "generator units at s=1; origin = belly",
+  "head_top": -302,
+  "boots": 182,
+  "height": 484,
+  "head_share": 0.4,
+  "head_ratio": "1.3 : 1"
+ },
+ "min_size": "whole bot at least 175 px tall in a 1080 px wide frame; head-only images at least 70 px tall",
+ "faces": [
+  {
+   "name": "happy",
+   "use": "good news, the solution, 'now you can'",
+   "svg": "svg/faces/happy.svg",
+   "png": "png/faces/happy.png",
+   "option": "happy"
+  },
+  {
+   "name": "grin",
+   "use": "a big win, a launch, a number going up",
+   "svg": "svg/faces/grin.svg",
+   "png": "png/faces/grin.png",
+   "option": "grin"
+  },
+  {
+   "name": "wink",
+   "use": "a tip, an insider detail, a light joke",
+   "svg": "svg/faces/wink.svg",
+   "png": "png/faces/wink.png",
+   "option": "wink"
+  },
+  {
+   "name": "proud",
+   "use": "'we did it', a feature that works, a proof",
+   "svg": "svg/faces/proud.svg",
+   "png": "png/faces/proud.png",
+   "option": "proud"
+  },
+  {
+   "name": "love",
+   "use": "something people love",
+   "svg": "svg/faces/love.svg",
+   "png": "png/faces/love.png",
+   "option": "love"
+  },
+  {
+   "name": "neutral",
+   "use": "a neutral fact, a setup, listening",
+   "svg": "svg/faces/neutral.svg",
+   "png": "png/faces/neutral.png",
+   "option": "neutral"
+  },
+  {
+   "name": "think",
+   "use": "a question, 'how does it work?'",
+   "svg": "svg/faces/think.svg",
+   "png": "png/faces/think.png",
+   "option": "think"
+  },
+  {
+   "name": "focus",
+   "use": "working, processing, building",
+   "svg": "svg/faces/focus.svg",
+   "png": "png/faces/focus.png",
+   "option": "focus"
+  },
+  {
+   "name": "shock",
+   "use": "a surprise, a reveal, an unexpected number",
+   "svg": "svg/faces/shock.svg",
+   "png": "png/faces/shock.png",
+   "option": "shock"
+  },
+  {
+   "name": "worried",
+   "use": "a risk, a warning, 'but there is a catch'",
+   "svg": "svg/faces/worried.svg",
+   "png": "png/faces/worried.png",
+   "option": "worried"
+  },
+  {
+   "name": "sad",
+   "use": "a loss, a failure, bad news for the user",
+   "svg": "svg/faces/sad.svg",
+   "png": "png/faces/sad.png",
+   "option": "sad"
+  },
+  {
+   "name": "angry",
+   "use": "the bad actor attacks (villain only)",
+   "svg": "svg/faces/angry.svg",
+   "png": "png/faces/angry.png",
+   "option": "angry"
+  },
+  {
+   "name": "sly",
+   "use": "a sneaky trick, a loophole (villain only)",
+   "svg": "svg/faces/sly.svg",
+   "png": "png/faces/sly.png",
+   "option": "sly"
+  },
+  {
+   "name": "cool",
+   "use": "confidence, 'no problem', a gatekeeper",
+   "svg": "svg/faces/cool.svg",
+   "png": "png/faces/cool.png",
+   "option": "cool"
+  },
+  {
+   "name": "dizzy",
+   "use": "broken, confused, 'it crashed'",
+   "svg": "svg/faces/dizzy.svg",
+   "png": "png/faces/dizzy.png",
+   "option": "dizzy"
+  },
+  {
+   "name": "sleep",
+   "use": "waiting, idle, 'off'",
+   "svg": "svg/faces/sleep.svg",
+   "png": "png/faces/sleep.png",
+   "option": "sleep"
+  }
+ ],
+ "poses": [
+  {
+   "name": "idle",
+   "use": "standing by, listening",
+   "face": "happy",
+   "svg": "svg/poses/idle.svg",
+   "png": "png/poses/idle.png",
+   "option": "idle"
+  },
+  {
+   "name": "point",
+   "use": "look at this (points right)",
+   "face": "happy",
+   "svg": "svg/poses/point.svg",
+   "png": "png/poses/point.png",
+   "option": "point"
+  },
+  {
+   "name": "pointUp",
+   "use": "next, coming up, a heading above",
+   "face": "grin",
+   "svg": "svg/poses/point-up.svg",
+   "png": "png/poses/point-up.png",
+   "option": "pointUp"
+  },
+  {
+   "name": "wave",
+   "use": "hello, intro",
+   "face": "happy",
+   "svg": "svg/poses/wave.svg",
+   "png": "png/poses/wave.png",
+   "option": "wave"
+  },
+  {
+   "name": "present",
+   "use": "palm up beside the object (right): 'here is ...' (signature pose)",
+   "face": "happy",
+   "svg": "svg/poses/present.svg",
+   "png": "png/poses/present.png",
+   "option": "present"
+  },
+  {
+   "name": "thumbsUp",
+   "use": "approve, works",
+   "face": "proud",
+   "svg": "svg/poses/thumbs-up.svg",
+   "png": "png/poses/thumbs-up.png",
+   "option": "thumbsUp"
+  },
+  {
+   "name": "thumbsDown",
+   "use": "reject, fails",
+   "face": "sad",
+   "svg": "svg/poses/thumbs-down.svg",
+   "png": "png/poses/thumbs-down.png",
+   "option": "thumbsDown"
+  },
+  {
+   "name": "think",
+   "use": "hand on chin, pondering",
+   "face": "think",
+   "svg": "svg/poses/think.svg",
+   "png": "png/poses/think.png",
+   "option": "think"
+  },
+  {
+   "name": "shrug",
+   "use": "'who knows', 'it depends', 'oh well'",
+   "face": "neutral",
+   "svg": "svg/poses/shrug.svg",
+   "png": "png/poses/shrug.png",
+   "option": "shrug"
+  },
+  {
+   "name": "cheer",
+   "use": "win, launch",
+   "face": "grin",
+   "svg": "svg/poses/cheer.svg",
+   "png": "png/poses/cheer.png",
+   "option": "cheer"
+  },
+  {
+   "name": "tada",
+   "use": "big reveal",
+   "face": "grin",
+   "svg": "svg/poses/tada.svg",
+   "png": "png/poses/tada.png",
+   "option": "tada"
+  },
+  {
+   "name": "facepalm",
+   "use": "a mistake, 'oops'",
+   "face": "dizzy",
+   "svg": "svg/poses/facepalm.svg",
+   "png": "png/poses/facepalm.png",
+   "option": "facepalm"
+  },
+  {
+   "name": "scratch",
+   "use": "confused, 'hmm'",
+   "face": "think",
+   "svg": "svg/poses/scratch.svg",
+   "png": "png/poses/scratch.png",
+   "option": "scratch"
+  },
+  {
+   "name": "armsCrossed",
+   "use": "firm, 'not allowed', a bouncer",
+   "face": "cool",
+   "svg": "svg/poses/arms-crossed.svg",
+   "png": "png/poses/arms-crossed.png",
+   "option": "armsCrossed"
+  },
+  {
+   "name": "stop",
+   "use": "halt, blocked, wait",
+   "face": "neutral",
+   "svg": "svg/poses/stop.svg",
+   "png": "png/poses/stop.png",
+   "option": "stop"
+  },
+  {
+   "name": "guard",
+   "use": "shield up: security, protection",
+   "face": "proud",
+   "svg": "svg/poses/guard.svg",
+   "png": "png/poses/guard.png",
+   "option": "guard"
+  },
+  {
+   "name": "sign",
+   "use": "holds a blank card low (put text on it)",
+   "face": "happy",
+   "svg": "svg/poses/sign.svg",
+   "png": "png/poses/sign.png",
+   "option": "sign"
+  },
+  {
+   "name": "tablet",
+   "use": "holds a screen (put content on it)",
+   "face": "focus",
+   "svg": "svg/poses/tablet.svg",
+   "png": "png/poses/tablet.png",
+   "option": "tablet"
+  },
+  {
+   "name": "typing",
+   "use": "works at a laptop",
+   "face": "focus",
+   "svg": "svg/poses/typing.svg",
+   "png": "png/poses/typing.png",
+   "option": "typing"
+  },
+  {
+   "name": "hold",
+   "use": "holds something in the right glove",
+   "face": "happy",
+   "svg": "svg/poses/hold.svg",
+   "png": "png/poses/hold.png",
+   "option": "hold"
+  },
+  {
+   "name": "walk",
+   "use": "walking",
+   "face": "happy",
+   "svg": "svg/poses/walk.svg",
+   "png": "png/poses/walk.png",
+   "option": "walk"
+  },
+  {
+   "name": "sit",
+   "use": "sitting on a stool",
+   "face": "neutral",
+   "svg": "svg/poses/sit.svg",
+   "png": "png/poses/sit.png",
+   "option": "sit"
+  },
+  {
+   "name": "pointLeft",
+   "use": "look at this (points left)",
+   "face": "happy",
+   "svg": "svg/poses/point-left.svg",
+   "png": "png/poses/point-left.png",
+   "option": "pointLeft"
+  },
+  {
+   "name": "presentLeft",
+   "use": "palm up beside the object (left)",
+   "face": "happy",
+   "svg": "svg/poses/present-left.svg",
+   "png": "png/poses/present-left.png",
+   "option": "presentLeft"
+  }
+ ],
+ "emotes": [
+  {
+   "name": "exclaim",
+   "sign": "!",
+   "face": "shock",
+   "svg": "svg/emotes/exclaim.svg",
+   "png": "png/emotes/exclaim.png"
+  },
+  {
+   "name": "question",
+   "sign": "?",
+   "face": "think",
+   "svg": "svg/emotes/question.svg",
+   "png": "png/emotes/question.png"
+  },
+  {
+   "name": "sweat",
+   "sign": "sweat drop",
+   "face": "worried",
+   "svg": "svg/emotes/sweat.svg",
+   "png": "png/emotes/sweat.png"
+  },
+  {
+   "name": "sparkle",
+   "sign": "sparkles",
+   "face": "grin",
+   "svg": "svg/emotes/sparkle.svg",
+   "png": "png/emotes/sparkle.png"
+  },
+  {
+   "name": "heart",
+   "sign": "heart",
+   "face": "love",
+   "svg": "svg/emotes/heart.svg",
+   "png": "png/emotes/heart.png"
+  },
+  {
+   "name": "zzz",
+   "sign": "sleep",
+   "face": "sleep",
+   "svg": "svg/emotes/zzz.svg",
+   "png": "png/emotes/zzz.png"
+  },
+  {
+   "name": "anger",
+   "sign": "anger mark",
+   "face": "angry",
+   "svg": "svg/emotes/anger.svg",
+   "png": "png/emotes/anger.png"
+  },
+  {
+   "name": "dots",
+   "sign": "thinking dots",
+   "face": "think",
+   "svg": "svg/emotes/dots.svg",
+   "png": "png/emotes/dots.png"
+  },
+  {
+   "name": "idea",
+   "sign": "light bulb",
+   "face": "grin",
+   "svg": "svg/emotes/idea.svg",
+   "png": "png/emotes/idea.png"
+  },
+  {
+   "name": "stars",
+   "sign": "dizzy stars",
+   "face": "dizzy",
+   "svg": "svg/emotes/stars.svg",
+   "png": "png/emotes/stars.png"
+  }
+ ],
+ "variants": [
+  {
+   "name": "role-badge",
+   "options": {
+    "pose": "idle",
+    "face": "happy",
+    "role": "CODEX"
+   },
+   "editableText": true,
+   "svg": "svg/variants/role-badge.svg",
+   "png": "png/variants/role-badge.png"
+  },
+  {
+   "name": "role-badge-top",
+   "options": {
+    "pose": "present",
+    "face": "happy",
+    "role": "AI AGENT",
+    "rolePos": "top"
+   },
+   "editableText": true,
+   "svg": "svg/variants/role-badge-top.svg",
+   "png": "png/variants/role-badge-top.png"
+  },
+  {
+   "name": "rogue",
+   "options": {
+    "pose": "idle",
+    "face": "sly",
+    "role": "ROGUE AI",
+    "roleColor": "#D9412E",
+    "visor": "#D9412E",
+    "glitch": true
+   },
+   "editableText": true,
+   "svg": "svg/variants/rogue.svg",
+   "png": "png/variants/rogue.png"
+  },
+  {
+   "name": "hat-cap",
+   "options": {
+    "pose": "wave",
+    "face": "happy",
+    "hat": "cap",
+    "role": "USER"
+   },
+   "editableText": true,
+   "svg": "svg/variants/hat-cap.svg",
+   "png": "png/variants/hat-cap.png"
+  },
+  {
+   "name": "hat-hardhat",
+   "options": {
+    "pose": "thumbsUp",
+    "face": "proud",
+    "hat": "hardhat",
+    "role": "BUILDER"
+   },
+   "editableText": true,
+   "svg": "svg/variants/hat-hardhat.svg",
+   "png": "png/variants/hat-hardhat.png"
+  },
+  {
+   "name": "visor-off",
+   "options": {
+    "pose": "idle",
+    "face": "sleep",
+    "visor": "#2D2C2B"
+   },
+   "editableText": false,
+   "svg": "svg/variants/visor-off.svg",
+   "png": "png/variants/visor-off.png"
+  },
+  {
+   "name": "visor-ok",
+   "options": {
+    "pose": "thumbsUp",
+    "face": "happy",
+    "visor": "#35A457"
+   },
+   "editableText": false,
+   "svg": "svg/variants/visor-ok.svg",
+   "png": "png/variants/visor-ok.png"
+  },
+  {
+   "name": "back-view",
+   "options": {
+    "pose": "idle",
+    "view": "back"
+   },
+   "editableText": false,
+   "svg": "svg/variants/back-view.svg",
+   "png": "png/variants/back-view.png"
+  }
+ ],
+ "sheets": {
+  "pdf": "character-sheet/payai-bot-character-sheet.pdf",
+  "png": [
+   "character-sheet/payai-bot-sheet-1-main.png",
+   "character-sheet/payai-bot-sheet-2-faces.png",
+   "character-sheet/payai-bot-sheet-3-poses.png",
+   "character-sheet/payai-bot-sheet-4-props.png",
+   "character-sheet/payai-bot-sheet-5-roles.png",
+   "character-sheet/payai-bot-sheet-6-sizes.png"
+  ]
+ },
+ "generator": {
+  "browser": "generator/mascot.html?pose=point&face=happy&role=CODEX",
+  "cli": "node generator/export.mjs out.svg --pose point --face happy",
+  "function": "payaiSVG(options)"
+ },
+ "paths": "relative to assets/mascot/ in PayAINetwork/brand-assets",
+ "license": "PayAI Brand Assets License (repository LICENSE); third-party notices in THIRD_PARTY_NOTICES.md"
+}

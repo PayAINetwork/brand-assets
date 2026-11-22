@@ -7,6 +7,8 @@ Official Pay AI brand assets for press, partners, and community use.
 - `assets/wordmark/` — Wordmark variants in `png/` and `svg/`.
 - `assets/lockups/` — Combined mark + wordmark organized by orientation:
   - `horizontal/` and `vertical/`, each with `png/` and `svg/`.
+- `assets/mascot/` — The PayAI bot as a hand-drawn doodle mascot: faces, poses, emotes and role variants in `svg/` and
+  `png/`, a character sheet, `mascot.json`, an agent guide and a generator for new combinations.
 - `source/` — Editable originals.
 
 ## File formats
@@ -45,6 +47,7 @@ Official Pay AI brand assets for press, partners, and community use.
 
 ## Prompts
 - `prompts/ui-design-style.md` — Reusable prompt for LLMs/AI coding assistants to build web UIs in the PayAI brand style. Includes CSS variables and font imports.
+- `prompts/mascot.md` — Reusable prompt for LLMs/AI coding assistants to use the PayAI bot mascot (files, role, expression and logo rules).
 
 ## Licensing
 Use of these assets is governed by the Brand Assets License in `LICENSE`.
